@@ -54,7 +54,7 @@ end
 
 def winner(board)
   windex = []
-  windex = won?(board)
+  index = won?(board)
   
   if windex == false
     return nil
@@ -62,6 +62,5 @@ def winner(board)
       return "X"
     else
       return "O"
-    end
   end
 end
