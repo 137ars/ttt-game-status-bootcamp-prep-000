@@ -58,9 +58,10 @@ def winner(board)
   
   if windex == false
     return nil
-  elsif board[index[0]] == "X"
-    return "X"
-  else
-    return "O"
+    elsif board[index[0]] == "X"
+      return "X"
+    else
+      return "O"
+    end
   end
 end
