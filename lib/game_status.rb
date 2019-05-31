@@ -53,8 +53,10 @@ def over?(board)
 end
 
 def winner(board)
+  windex = []
+  windex = won?(board)
   
-  if won?(board) == false
+  if windex == false
     return nil
   elsif
     return "X"
